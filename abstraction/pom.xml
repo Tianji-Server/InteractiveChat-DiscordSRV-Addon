@@ -30,6 +30,10 @@
           <url>http://maven.elmakers.com/repository/</url>
         </repository>
         <repository>
+           <id>sonatype-oss-snapshots1</id>
+           <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
