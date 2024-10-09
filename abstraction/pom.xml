@@ -26,6 +26,10 @@
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
+            <id>craftbukkit</id>
+            <url>https://mvnrepository.com/artifact/org.bukkit/craftbukkit</url>
+        </repository>
+        <repository>
           <id>elmakers-repo</id>
           <url>http://maven.elmakers.com/repository/</url>
         </repository>
@@ -92,6 +96,12 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.9-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>craftbukkit</artifactId>
+            <version>1.9.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
