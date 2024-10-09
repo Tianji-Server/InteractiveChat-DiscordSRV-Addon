@@ -30,10 +30,6 @@
             <url>https://mvnrepository.com/artifact/org.bukkit/craftbukkit</url>
         </repository>
         <repository>
-          <id>elmakers-repo</id>
-          <url>http://maven.elmakers.com/repository/</url>
-        </repository>
-        <repository>
            <id>sonatype-oss-snapshots1</id>
            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
